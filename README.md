@@ -1,4 +1,4 @@
-# Journal
+# Student Journal
 
 ##Prerequisites:
 * MySQL server running on **localhost** with **Root** user having **no password** (the default with XAMPP)
