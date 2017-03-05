@@ -8,4 +8,5 @@
 * Enter *Client* directory and issue command:
   **npm install**
 * Import **setup_db.sql** into phpMyAdmin to create the DB ( or use your preferred method )
+
 ---
