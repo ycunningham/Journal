@@ -7,7 +7,7 @@
 
 ---
 ##Setup:
-* Download the Journal repository
+* Clone the Journal repository, **git clone https://github.com/ycunningham/Journal.git journal**
 * Enter the *Journal* directory on your local machine and issue command:
   **npm install**
 * Enter *Client* directory and issue command:
