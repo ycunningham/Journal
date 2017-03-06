@@ -14,6 +14,7 @@
   **npm install**
 * Import **setup_db.sql** into phpMyAdmin to create the DB ( or use your preferred method )
 * Run the node server (app.js), **node app.js**
+* Application home **http://localhost:3000**
 
 ---
 ##Technologies:
