@@ -18,6 +18,6 @@
 
 ---
 ##Technologies:
-* Nodejs Sever
-* Expressjs handels Routing
+* Nodejs Server
+* Expressjs handles Routing
 * Angular2 Platform used for Client side SPA after user authentication 
