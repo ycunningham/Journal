@@ -1,0 +1,37 @@
+extends base
+
+block vars
+  - title = "Register"
+
+block body
+  div#login.span3.well.well-large.offset4
+    h4 Create Account
+    if error
+      div.alert.alert-danger
+        ul
+        each item in error
+          li=item
+
+    form(method="post")
+      input.input.form-control.input-lg(type="text", name ="firstName", 
+      placeholder="First Name", required=true)  
+
+      input.form-control.input-lg(type="text", name ="lastName", 
+      placeholder="Last Name", required=true)  
+
+      input.form-control.input-lg(type="email", name ="email", 
+      placeholder="Email", required=true)  
+
+      input.form-control.input-lg(type="password", name ="password", 
+      placeholder="Password", required=true)
+
+      input.form-control.input-lg(type="password", name ="password_dup", 
+      placeholder="Password", required=true)    
+
+      br
+      div.center
+        button.btn.btn-success(type="submit") &nbsp;Register&nbsp;
+        a.btn(href="/login")
+          Strong Login
+
+    
