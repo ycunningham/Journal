@@ -22,4 +22,4 @@
 * Expressjs handles Routing
 * Angular2 Platform used for Client side SPA after user authentication 
 
-![Alt text](/ycunningham/Journal/blob/master/shots/Toggle_Student.jpg?raw=true "Default role is Student then toggled to teacher")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/Toggle_Student.jpg?raw=true "Default role is Student then toggled to teacher")
