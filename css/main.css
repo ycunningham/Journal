@@ -1,58 +1,305 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-body{
-    color: rgba(0,0,0,0.87);
+body {
+    color: #222;
     font-family: 'Roboto Condensed', sans-serif;
 }
-#container{
-    position: relative;
-    width: 80%;
+
+a:hover, a:visited, a:link, a:active {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#555;
+}
+
+#container {
+    position:relative;
+    height:100%;
+    width:80%;
     margin: 5px auto;
 }
-#journal{
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background: rgb(248, 236, 194);
-    margin: 5px auto;
+
+#journal {
+    position:relative;
+    width:100%;
+	min-height:200px;
+    background: #fafafa;
+	/*background:rgb(248, 236, 194);*/
+	margin:5px auto;
 }
-.paper{
-    position: relative;
-    width: 100%;
+
+.paper
+{
+  position: relative;
+  width:100%;
+  padding:10px;
 }
-.paper:after{
-    z-index: -1;
-    position: absolute;
-    content: "";
-top: 20px;
-right: auto;
-left: 5px;
-width: 50%;
-bottom: 100%;
-max-width: 300px;
-background: #777;
--webkit-box-shadow: 0 - 15px 20px 2px #777;
--moz-box-shadow: 0-15px 20px 2px #777;
-box-shadow: 0 -15px 20px 2px #777;
--webkit-transform: rotate(2deg);
--moz-transform: rotate(2deg);
--o-transform: rotate(2deg);
--ms-transform: rotate(2deg);
-transform: rotate(2deg);
+
+.paper:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: auto;
+  left: 5px;
+  width: 50%;
+  bottom: 100%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 -15px 20px 2px #777;
+  -moz-box-shadow: 0 -15px 20px 2px #777;
+  box-shadow: 0 -15px 20px 2px #777;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
-.center{
+
+.center {
     text-align: center;
 }
+
 #login {
     margin: 0 auto;
-    width: 350px;
+	width:350px;
     margin-top: 10%;
     box-shadow: 0 0 18px #ccc;
 }
+			   
 #login .form-control {
-    margin-bottom: 15px;
+	margin-bottom:15px;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
-    list-style: none;
+   list-style: none;
+   position:relative
+}
+
+logout {
+    position:relative;
+    display:block;
+}
+
+topics {
+    position:relative;
+    display:block;
+    width:auto;
+    border-radius: 6px;
+}
+
+topics ul {
+    margin:0;
+    padding:0;
+}
+
+topics ul li, topicview ul li {
+    border:1px solid #aaa;
+    background: white;
+    margin:5px;
+    padding:10px;
+    /*border-radius: 6px;*/
+}
+
+#cptextarea, #cttextarea {
+    margin-left: 10px;
+    margin-right:10px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, .2) 1px 1px 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 100px;
+    width: calc( 100% - 20px )
+}
+
+.delete {
+    display: inline-block;
+    width: 75px;
+    text-align:center;
+    color: darkred;
+}
+
+
+.altdelete {
+    position:absolute;
+    top:35%;
+    right: 25px;
+    display: inline-block;
+    width: 75px;
+    text-align:center;
+    color: darkred;
+}
+}
+.creation {
+    display: inline-block;
+    width: calc(100% - 236px);
+}
+
+.createdBy {
+    display: inline-block;
+    width: 75px;
+}
+
+.heading {
+    font-size: 1.5em;
+    width:100%;
+    display:block;
+}
+
+.viewpostlink{
+   display: inline-block;
+}
+
+.btn-custom {
+    border-radius: 1px;
+    font-size:1em;
+    right:10px;
+    padding: 5px;
+}
+
+#usernav {
+    height:auto;
+    text-align:right;
+    border-bottom: 1px solid #aaa;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+#logout {
+    display:inline-block;
+    height:10px;
+    margin-top:10px;
+    margin-right:8px;
+}
+
+.buttonContainer {
+    width: 100%;
+    text-align: right;
+    padding-right:100px;
+}
+
+div#classes .class li {
+    margin: 5px 10px 0 10px;
+}
+
+.class {
+    border: 1px solid #aaa;
+    margin: 10px;
+    background: #fff;
+}
+
+.left {
+    display: inline-block;
+    height:100%;
+    min-width:200px;
+    border-right: 1px solid #aaa;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-pills>li {
+    float: none;
+}
+
+a.enroll {
+    color:darkred;
+    margin-left: 1px;
+}
+.enrolltext{
+    font-size: .85em;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+td, th {
+  border: solid 1px black;
+  padding:4px;
+  text-align:center;
+} 
+
+.roleCell {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+teacheradmin {
+    display:block;
+    padding-left: 8px;
+}
+
+
+#cctextarea {
+    width: auto;
+    margin-top: 5px !important;
+}
+
+#ccsave {
+    margin-top: 5px;
+    margin-left:145px;
+}
+
+
+.title {
+    margin-left:10px;
+}
+
+.description {
+    margin-left:20px;
+}
+
+.createdby {
+    margin-left: 20px;
+}
+
+.topics {
+    display: inline-block;
+    float: left;
+    clear: both;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+#classHeading{
+    font-size: 1.5em;
+    margin-left: 15px;  
+}
+
+.content {
+   font-size: 1.3em;
+}
+
+.post {
+    padding: 10px;
+}
+
+.by{
+   font-weight: bold;
+   font-size: .93em;
+}
+
+label {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  text-align: right;
+}​
+
+end{
+
 }

@@ -1,19 +1,23 @@
 {
-  "name": "journal",
+  "name": "auth",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "client-sessions": "^0.7.0",
+    "express": "^4.14.1",
+    "express-validator": "^3.1.2",
+    "jade": "^1.11.0",
+    "mysql": "^2.13.0",
+    "pub": "^0.2.0",
+    "sequelize": "^3.30.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.17.0",
-    "client-sessions": "^0.7.0",
-    "express": "^4.15.0",
-    "jade": "^1.11.0",
-    "sequelize": "^3.30.2"
-  }
+  "license": "ISC"
 }

@@ -1,20 +1,19 @@
 extends base
-
+        
 block vars
-  - title = "Account Panel"
-
+ - title = "Account Panel"
+ 
 block body
+
   div#login.span3.well.well-large.offset4
     h4 Account Panel
     if error
       p.alert.alert-danger #{error}
     form.form(method="post")
-      input.form-control.input-lg(type="email", name="email",placeholder ="Email", required=true)
-      input.form-control.input-lg(type="password", name="password",placeholder = "Password", required=true)
+      input.form-control.input-lg(type="email",name="email", placeholder="Email",required=true)
+      input.form-control.input-lg(type="password", name="password", placeholder="Password",required=true)
       br
       div.center
-        button.btn.btn-success(type="submit") &nbsp;Login&nbsp;
-        a.btn(href="/register")
-          strong Create Account
- 
- 
+         button.btn.btn-success(type="submit") &nbsp;Login&nbsp;  
+         a.btn(href="/register")
+           strong Create Account
