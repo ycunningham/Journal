@@ -22,4 +22,15 @@
 * Expressjs handles Routing
 * Angular2 Platform used for Client side SPA after user authentication 
 
-![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/Toggle_Student.jpg?raw=true "Default role is Student then toggled to teacher")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/login.jpg?raw=true "Login Screen")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/register.jpg?raw=true "Create user")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/Toggle_Student.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/made_teacher.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/create_class.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/create_topic.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/student_post_to_topic.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/teacher_add_topic_to_class.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/student_enroll.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/teacher_confirm_enrollment.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/admin_logged_in.jpg?raw=true "")
+![Alt text](https://raw.githubusercontent.com/ycunningham/Journal/master/shots/admin_after_teacher_has_class.jpg?raw=true "")
